@@ -1,0 +1,12 @@
+spring:
+	datasource:
+		platform: org.hibernate.dialect.NySQL5Dialect 
+		url: jdbc:mysql://localhost:3000/ecom_schema?createDatabaseIfNotExist=true
+		username: root
+		password: root 
+		driver-class-name: org.mariadb.jdbc.Driver
+		idle Timeout: 10000
+		max-lifetime: 20000
+	jpa:
+		open-in-view: false 
+		jpa.show-sql: true
